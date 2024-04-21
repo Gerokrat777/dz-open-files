@@ -1,5 +1,5 @@
 name = 'out.txt'
-file = open(name, mode= 'rb')
+file = open(name, mode= 'r')
 file_content = file.read()
 file.close()
-print(file_content.decode('utf-8'))
+print(file_content)
